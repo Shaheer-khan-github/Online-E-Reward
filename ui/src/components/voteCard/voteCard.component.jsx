@@ -37,6 +37,6 @@ function Highlighter() {
 function VoteCount() {
 
     return (
-        <span className="voteCount bg-1 revamped">10,000 Votes</span>
+        <span className="voteCount bg-1 revamped">15,000 Votes</span>
     )
 }

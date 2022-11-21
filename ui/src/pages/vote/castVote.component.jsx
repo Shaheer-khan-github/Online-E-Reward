@@ -12,7 +12,7 @@ const options = [
   { name: "Ilsa Afzal", value: "1" },
   { name: "Shaheer Khan", value: "2" },
   { name: "Saad", value: "3" },
-  { name: "Usama Zafar", value: "4" },
+    { name: "Mehwish", value: "4" },
 ];
 
 function CastVote() {

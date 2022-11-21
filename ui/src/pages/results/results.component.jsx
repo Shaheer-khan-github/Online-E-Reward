@@ -19,9 +19,10 @@ function Results() {
                 <VoteCard removeEffect />
 
                 <VotePercentCard />
+
+                <VotePercentCard3 />
                 <VotePercentCard4 />
                 <VotePercentCard2 />
-                <VotePercentCard3 />
               </div>
             </Grid>
 
@@ -30,7 +31,7 @@ function Results() {
                 <div className="results__vote-count-container eth-card white-glassmorphism">
                   <span className='text-white'>Votes</span>
                   <br />
-                  <h1 className="results__vote-count text-white">10,000</h1>
+                  <h1 className="results__vote-count text-white">15,000</h1>
                 </div>
                 <Link to="/cast-vote">
                   <Button className="results__button blue-glassmorphism hover:white-glassmorphism pointer revamped">Cast your vote</Button>
