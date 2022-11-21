@@ -1,0 +1,69 @@
+{
+  "name": "evote",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-brands-svg-icons": "^6.1.2",
+    "@fortawesome/free-regular-svg-icons": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.2",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.3.0",
+    "react": "^18.2.0",
+    "react-app": "^1.1.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-redux": "^8.0.2",
+    "react-reveal": "1.2.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "solc": "^0.8.15",
+    "styled-components": "^5.3.5",
+    "web3": "^1.7.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts  build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "compile": "solcjs --abi --include-path node_modules/ --base-path . src/blockchain/contracts/Greeter.sol --output-dir src/blockchain/build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.",
+  "main": "tailwind.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "saad",
+  "license": "ISC",
+  "keywords": [
+    "e",
+    "voting"
+  ]
+}

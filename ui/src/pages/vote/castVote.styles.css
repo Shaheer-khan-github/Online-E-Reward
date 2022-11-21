@@ -1,0 +1,30 @@
+.castVote {
+    padding:100px 0px;
+
+}
+
+.castVote__button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 25px;
+    /* background-color: #41db7b; */
+    margin: 0;
+}
+
+.castVote__button:hover {
+    background-color: #41b36c;
+}
+
+.castVote__jump-to-results {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 13px;
+    color: gray;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.castVote__jump-to-results > span {
+    margin-right: 20px;
+}

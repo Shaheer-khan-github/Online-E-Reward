@@ -1,0 +1,55 @@
+.footer{
+   display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: bold;
+    padding: 0 40px;
+    /* height: 48px; */
+
+}
+
+.footer__item{
+    margin: 0px 20px;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+}
+
+.kdam {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: 200;
+  }
+
+.footer__left{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer__center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 8px;
+    color: brown;
+}
+.footer__center >p{
+    margin: 0px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.footer__centerp>p>span{
+    color: red;
+    margin: 0 10px;
+}
+.footer__right{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    color: white;
+}

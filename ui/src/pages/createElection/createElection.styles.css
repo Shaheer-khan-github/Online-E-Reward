@@ -1,0 +1,25 @@
+.createElection {
+    padding-bottom: 50px;
+}
+.createElection__content {
+    height:200vh;
+}
+
+.createElection__content-title {
+    margin: 30px auto 20px 0;
+    /* color: rgb(70, 68, 68); */
+    /* color:white; */
+    font-size: 40px;
+}
+
+.createElection__content-subtitle {
+    color: rgb(156, 154, 154);
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.createElection__button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 25px;
+}

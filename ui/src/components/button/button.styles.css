@@ -1,0 +1,28 @@
+.button {
+    background-color: #4199ff;
+    color: white;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: 200ms linear all;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #2476d3;
+    transition: 200ms linear all;
+}
+
+.button-clear {
+    background-color: white;
+    color: gray;
+}
+
+.button-clear:hover {
+    background-color: white;
+    color: rgb(90, 89, 89);
+    transition: 200ms linear all;
+}

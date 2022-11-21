@@ -1,0 +1,14 @@
+.sidebar {
+    display: none;
+}
+
+.sidebar__logo {
+    width: 120px;
+    height: 70px;
+}
+
+@media(max-width: 900px) {
+    .sidebar {
+        display: block;
+    }
+}

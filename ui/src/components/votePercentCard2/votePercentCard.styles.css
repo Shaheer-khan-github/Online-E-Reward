@@ -1,0 +1,34 @@
+.votePercentCard {
+    border-radius: 10px;
+    padding: 0px 45px 10px 45px;
+    /* background-color: white; */
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    /* box-shadow: 0px 10px 44px 10px rgb(233, 235, 243); */
+    transition: 200ms linear all;
+    margin-bottom: 50px;
+    color:white;
+}
+
+.votePercentCard:hover {
+    translate: 0px -6px; 
+    /* box-shadow: 0px 0px 60px 10px rgb(217, 220, 223); */
+    transition: 200ms linear all;
+}
+
+.votePercentCard__title {
+    margin: 20px auto 10px 0;
+    /* color: rgb(70, 68, 68); */
+    color:white;
+}
+
+.votePercentCard__votes {
+    color: rgb(192, 190, 190);
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.votePercentCard__percent {
+    text-align: right;
+}
